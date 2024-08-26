@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: delete agent group [#7953](https://github.com/deepflowio/deepflow/pull/7953) by [roryye](https://github.com/roryye)
+* fix: agent registration followGroupFeatures is all features [#7949](https://github.com/deepflowio/deepflow/pull/7949) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
+* fix: license_func_log sql [#7943](https://github.com/deepflowio/deepflow/pull/7943) by [roryye](https://github.com/roryye)
 * fix: Fix windows compile [#7897](https://github.com/deepflowio/deepflow/pull/7897) by [rvql](https://github.com/rvql)
 * fix: abnormal stats data, causing deepflow-server to panic [#7894](https://github.com/deepflowio/deepflow/pull/7894) by [lzf575](https://github.com/lzf575)
 * fix: fixes invalid controller formatted logs [#7890](https://github.com/deepflowio/deepflow/pull/7890) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
@@ -145,6 +148,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Support DWARF unwinding from kernel context [#7940](https://github.com/deepflowio/deepflow/pull/7940) by [rvql](https://github.com/rvql)
+* feat: moves mysql models to independent directory [#7929](https://github.com/deepflowio/deepflow/pull/7929) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: when only exporting a single kafka data, use the 'sendMessage' interface [#7885](https://github.com/deepflowio/deepflow/pull/7885) by [lzf575](https://github.com/lzf575)
 * feat: querier support simple sql [#7883](https://github.com/deepflowio/deepflow/pull/7883) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: update domain daily trigger [#7850](https://github.com/deepflowio/deepflow/pull/7850) by [askyrie](https://github.com/askyrie)
