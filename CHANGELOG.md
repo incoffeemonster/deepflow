@@ -8,6 +8,11 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent command panic [#8071](https://github.com/deepflowio/deepflow/pull/8071) by [roryye](https://github.com/roryye)
+* fix: clickhouse disk monitoring failure [#8069](https://github.com/deepflowio/deepflow/pull/8069) by [lzf575](https://github.com/lzf575)
+* fix: Tars parse failure cause agent exit [#8068](https://github.com/deepflowio/deepflow/pull/8068) by [rvql](https://github.com/rvql)
+* fix: agent desensitizes the content in backticks [#8060](https://github.com/deepflowio/deepflow/pull/8060) by [TomatoMr](https://github.com/TomatoMr)
+* fix: add timeout to receive agent command heart beat [#8050](https://github.com/deepflowio/deepflow/pull/8050) by [roryye](https://github.com/roryye)
 * fix: add libpcap to deb package [#7979](https://github.com/deepflowio/deepflow/pull/7979) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: agent - eBPF Remove the handling of redundant process events [#7977](https://github.com/deepflowio/deepflow/pull/7977) by [yinjiping](https://github.com/yinjiping)
 * fix: Non-PIC executable DWARF entry problem [#7971](https://github.com/deepflowio/deepflow/pull/7971) by [rvql](https://github.com/rvql)
@@ -159,6 +164,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Allow changing memory profile report interval [#8076](https://github.com/deepflowio/deepflow/pull/8076) by [rvql](https://github.com/rvql)
 * feat: Show API support all enum tags and values [#7976](https://github.com/deepflowio/deepflow/pull/7976) by [Ericsssss](https://github.com/Ericsssss)
 * feat: trace tree support store PseudoLink field [#7956](https://github.com/deepflowio/deepflow/pull/7956) by [lzf575](https://github.com/lzf575)
 * feat: refactors mysql migrator [#7951](https://github.com/deepflowio/deepflow/pull/7951) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
