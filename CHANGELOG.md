@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Memory profile report interval not effective [#8092](https://github.com/deepflowio/deepflow/pull/8092) by [rvql](https://github.com/rvql)
 * fix: add libpcap to deb package [#7979](https://github.com/deepflowio/deepflow/pull/7979) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: agent - eBPF Remove the handling of redundant process events [#7977](https://github.com/deepflowio/deepflow/pull/7977) by [yinjiping](https://github.com/yinjiping)
 * fix: Non-PIC executable DWARF entry problem [#7971](https://github.com/deepflowio/deepflow/pull/7971) by [rvql](https://github.com/rvql)
@@ -159,6 +160,11 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add fields to some/ip log [#8093](https://github.com/deepflowio/deepflow/pull/8093) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: agent - eBPF Add Command for datadump [#8087](https://github.com/deepflowio/deepflow/pull/8087) by [yinjiping](https://github.com/yinjiping)
+* feat: support ByConity disk monitor [#8079](https://github.com/deepflowio/deepflow/pull/8079) by [lzf575](https://github.com/lzf575)
+* feat: querier exist support pod_service [#8072](https://github.com/deepflowio/deepflow/pull/8072) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: support some/ip [#8019](https://github.com/deepflowio/deepflow/pull/8019) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: Show API support all enum tags and values [#7976](https://github.com/deepflowio/deepflow/pull/7976) by [Ericsssss](https://github.com/Ericsssss)
 * feat: trace tree support store PseudoLink field [#7956](https://github.com/deepflowio/deepflow/pull/7956) by [lzf575](https://github.com/lzf575)
 * feat: refactors mysql migrator [#7951](https://github.com/deepflowio/deepflow/pull/7951) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
@@ -342,6 +348,7 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: reduce the length of the receive queue [#8077](https://github.com/deepflowio/deepflow/pull/8077) by [lzf575](https://github.com/lzf575)
 * refactor: Adjust agent profile configurations [#7918](https://github.com/deepflowio/deepflow/pull/7918) by [rvql](https://github.com/rvql)
 * refactor: update trace_tree debug info [#7915](https://github.com/deepflowio/deepflow/pull/7915) by [lzf575](https://github.com/lzf575)
 * refactor: agent divides the config into dynamic_config and user_config [#7872](https://github.com/deepflowio/deepflow/pull/7872) by [TomatoMr](https://github.com/TomatoMr)
