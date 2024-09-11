@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Fix DWARF config on unsupported systems and tracer restart [#8118](https://github.com/deepflowio/deepflow/pull/8118) by [rvql](https://github.com/rvql)
+* fix: agent - eBPF Fix the calculation of total process time [#8117](https://github.com/deepflowio/deepflow/pull/8117) by [yinjiping](https://github.com/yinjiping)
+* fix: querier TopK supporrt resource_id [#8104](https://github.com/deepflowio/deepflow/pull/8104) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: add libpcap to deb package [#7979](https://github.com/deepflowio/deepflow/pull/7979) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: agent - eBPF Remove the handling of redundant process events [#7977](https://github.com/deepflowio/deepflow/pull/7977) by [yinjiping](https://github.com/yinjiping)
 * fix: Non-PIC executable DWARF entry problem [#7971](https://github.com/deepflowio/deepflow/pull/7971) by [rvql](https://github.com/rvql)
@@ -159,6 +162,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: support free OS memory at intervals [#8091](https://github.com/deepflowio/deepflow/pull/8091) by [lzf575](https://github.com/lzf575)
+* feat: support profile data compressed by agent [#8088](https://github.com/deepflowio/deepflow/pull/8088) by [taloric](https://github.com/taloric)
 * feat: Show API support all enum tags and values [#7976](https://github.com/deepflowio/deepflow/pull/7976) by [Ericsssss](https://github.com/Ericsssss)
 * feat: trace tree support store PseudoLink field [#7956](https://github.com/deepflowio/deepflow/pull/7956) by [lzf575](https://github.com/lzf575)
 * feat: refactors mysql migrator [#7951](https://github.com/deepflowio/deepflow/pull/7951) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
