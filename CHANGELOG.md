@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: ebpf dispatcher build error [#8197](https://github.com/deepflowio/deepflow/pull/8197) by [TomatoMr](https://github.com/TomatoMr)
+* fix: peer connection api limit [#8194](https://github.com/deepflowio/deepflow/pull/8194) by [askyrie](https://github.com/askyrie)
+* fix: incorrect tcp rrt [#8152](https://github.com/deepflowio/deepflow/pull/8152) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: add libpcap to deb package [#7979](https://github.com/deepflowio/deepflow/pull/7979) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: agent - eBPF Remove the handling of redundant process events [#7977](https://github.com/deepflowio/deepflow/pull/7977) by [yinjiping](https://github.com/yinjiping)
 * fix: Non-PIC executable DWARF entry problem [#7971](https://github.com/deepflowio/deepflow/pull/7971) by [rvql](https://github.com/rvql)
@@ -159,6 +162,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Modify default l7 protocol enable [#8198](https://github.com/deepflowio/deepflow/pull/8198) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: reduce the application protocols parsed by default [#8196](https://github.com/deepflowio/deepflow/pull/8196) by [sharang](https://github.com/sharang)
+* feat: default genesis sync vpc name [#8192](https://github.com/deepflowio/deepflow/pull/8192) by [askyrie](https://github.com/askyrie)
+* feat: update cloud region filter [#8105](https://github.com/deepflowio/deepflow/pull/8105) by [askyrie](https://github.com/askyrie)
 * feat: Show API support all enum tags and values [#7976](https://github.com/deepflowio/deepflow/pull/7976) by [Ericsssss](https://github.com/Ericsssss)
 * feat: trace tree support store PseudoLink field [#7956](https://github.com/deepflowio/deepflow/pull/7956) by [lzf575](https://github.com/lzf575)
 * feat: refactors mysql migrator [#7951](https://github.com/deepflowio/deepflow/pull/7951) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
