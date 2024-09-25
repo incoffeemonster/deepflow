@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: prometheus data writing fails when using ByConity database [#8222](https://github.com/deepflowio/deepflow/pull/8222) by [lzf575](https://github.com/lzf575)
+* fix: K8s watch env logs [#8217](https://github.com/deepflowio/deepflow/pull/8217) by [rvql](https://github.com/rvql)
 * fix: add libpcap to deb package [#7979](https://github.com/deepflowio/deepflow/pull/7979) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: agent - eBPF Remove the handling of redundant process events [#7977](https://github.com/deepflowio/deepflow/pull/7977) by [yinjiping](https://github.com/yinjiping)
 * fix: Non-PIC executable DWARF entry problem [#7971](https://github.com/deepflowio/deepflow/pull/7971) by [rvql](https://github.com/rvql)
@@ -159,6 +161,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: the application log table uses app_service as the primary key [#8220](https://github.com/deepflowio/deepflow/pull/8220) by [lzf575](https://github.com/lzf575)
+* feat: support k8s_watch_policy env [#8219](https://github.com/deepflowio/deepflow/pull/8219) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: tracemap supports multiple regions [#8075](https://github.com/deepflowio/deepflow/pull/8075) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: Show API support all enum tags and values [#7976](https://github.com/deepflowio/deepflow/pull/7976) by [Ericsssss](https://github.com/Ericsssss)
 * feat: trace tree support store PseudoLink field [#7956](https://github.com/deepflowio/deepflow/pull/7956) by [lzf575](https://github.com/lzf575)
 * feat: refactors mysql migrator [#7951](https://github.com/deepflowio/deepflow/pull/7951) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
