@@ -8,6 +8,10 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: modify exist attribute tag translation [#8272](https://github.com/deepflowio/deepflow/pull/8272) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* fix: fix exist attribute tag error [#8269](https://github.com/deepflowio/deepflow/pull/8269) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* fix: fix exist attribute tag error [#8267](https://github.com/deepflowio/deepflow/pull/8267) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* fix: process matcher error [#8264](https://github.com/deepflowio/deepflow/pull/8264) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: add libpcap to deb package [#7979](https://github.com/deepflowio/deepflow/pull/7979) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: agent - eBPF Remove the handling of redundant process events [#7977](https://github.com/deepflowio/deepflow/pull/7977) by [yinjiping](https://github.com/yinjiping)
 * fix: Non-PIC executable DWARF entry problem [#7971](https://github.com/deepflowio/deepflow/pull/7971) by [rvql](https://github.com/rvql)
