@@ -159,6 +159,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: agent - eBPF Adjust log output for get_process_starttime_and_comm [#8293](https://github.com/deepflowio/deepflow/pull/8293) by [yinjiping](https://github.com/yinjiping)
+* feat: agent - eBPF Keep the agent running after initialization [#8287](https://github.com/deepflowio/deepflow/pull/8287) by [yinjiping](https://github.com/yinjiping)
+* feat: support skywalking integration [#8286](https://github.com/deepflowio/deepflow/pull/8286) by [taloric](https://github.com/taloric)
 * feat: Show API support all enum tags and values [#7976](https://github.com/deepflowio/deepflow/pull/7976) by [Ericsssss](https://github.com/Ericsssss)
 * feat: trace tree support store PseudoLink field [#7956](https://github.com/deepflowio/deepflow/pull/7956) by [lzf575](https://github.com/lzf575)
 * feat: refactors mysql migrator [#7951](https://github.com/deepflowio/deepflow/pull/7951) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
